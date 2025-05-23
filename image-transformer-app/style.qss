@@ -1,0 +1,136 @@
+/* Style for the main window background */
+QMainWindow {
+    background-color: #2e3440; /* Dark bluish-gray */
+}
+
+/* Central widget background */
+QWidget#centralwidget {
+    background-color: #3b4252; /* Slightly lighter */
+}
+
+/* QPushButton general styling */
+QPushButton {
+    background-color: #5e81ac;  /* Soft blue */
+    color: white;
+    border-radius: 8px;
+    padding: 4px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid #81a1c1;
+    transition: all 0.3s ease;
+}
+
+/* Specific styles for Reset and Save buttons by object name */
+QPushButton#resetButton, QPushButton#saveButton {
+    min-width: 140px;      /* wider buttons */
+    min-height: 30px;      /* taller buttons */
+    font-size: 16px;       /* slightly bigger text */
+    font-weight: 900;
+    background-color: #81a1c1; /* lighter blue */
+    border: 2px solid #88c0d0;
+    color: #2e3440;          /* dark text */
+}
+
+QPushButton#resetButton:hover, QPushButton#saveButton:hover {
+    background-color: #88c0d0; /* lighter blue on hover */
+    border-color: #a3b8d1;
+    color: #1e2430;
+}
+
+QPushButton#resetButton:pressed, QPushButton#saveButton:pressed {
+    background-color: #4c669f;
+    border-color: #4c669f;
+    color: #d8dee9;
+}
+
+/* Hover state for general buttons */
+QPushButton:hover {
+    background-color: #81a1c1; /* Lighter blue on hover */
+    border-color: #88c0d0;
+    color: #2e3440;
+}
+
+/* Pressed state for general buttons */
+QPushButton:pressed {
+    background-color: #4c669f;
+    border-color: #4c669f;
+    color: #d8dee9;
+}
+
+/* QLabel styling */
+QLabel {
+    color: #d8dee9;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* QSlider styling */
+QSlider::groove:horizontal {
+    border: 1px solid #4c566a;
+    height: 6px;
+    background: #434c5e;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: #81a1c1;
+    border: 1px solid #4c566a;
+    width: 16px;
+    margin: -5px 0;
+    border-radius: 8px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: #88c0d0;
+    border: 1px solid #81a1c1;
+}
+
+/* QComboBox styling */
+QComboBox {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 6px;
+    padding: 1px 1px;
+    font-weight: bold;
+    min-width: 40px;
+}
+
+QComboBox:hover {
+    border-color: #81a1c1;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #3b4252;
+    border: 1px solid #81a1c1;
+    selection-background-color: #81a1c1;
+    color: #d8dee9;
+}
+
+/* QLabel used for displaying images */
+QLabel#imageViewlabel {
+    border: 2px solid #81a1c1;
+    background-color: #2e3440;
+    border-radius: 8px;
+}
+
+/* Status bar */
+QStatusBar {
+    background-color: #3b4252;
+    color: #d8dee9;
+}
+
+/* Menu bar */
+QMenuBar {
+    background-color: #3b4252;
+    color: #d8dee9;
+}
+
+QMenuBar::item:selected {
+    background-color: #81a1c1;
+    color: #2e3440;
+}
