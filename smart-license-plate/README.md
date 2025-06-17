@@ -14,6 +14,7 @@ A full-stack IoT system powered by Python, OpenCV, OCR, Flask, MQTT, SQLite, and
  
 ## Project Structure
  
+```
 smart-license-plate/
 ├── main.py                  # Entry point, orchestrates components
 ├── db_utils.py              # SQLite insert/query helpers
@@ -32,6 +33,7 @@ smart-license-plate/
 ├── snapshots/               # Saved snapshots of detected plates
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
+```
  
 ## Installation
  
