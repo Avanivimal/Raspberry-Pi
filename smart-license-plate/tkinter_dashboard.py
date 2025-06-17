@@ -13,12 +13,6 @@ from mqtt_client import connect_mqtt, publish_plate
 from datetime import datetime
 import logging
 
-from gpiozero import LED
-from time import sleep
- 
-led = LED(26, active_high=False)
-
-
 class LicensePlateDashboard:
     def __init__(self, root):
         self.root = root
@@ -102,12 +96,6 @@ class LicensePlateDashboard:
              # Send MQTT
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             publish_plate(plate_text, confidence, timestamp)
-            try:
-                led.on()
-                sleep(1.5)
-                led.off()
-            except:
-                print("There was an exception")
 
         resized_frame = cv2.resize(frame, (640, 360))
         img = cv2.cvtColor(resized_frame, cv2.COLOR_BGR2RGB)
