@@ -1,0 +1,14 @@
+2025-06-17 12:42:13,922 | INFO | Logger initialized.
+2025-06-17 12:43:12,437 | INFO | Detected: TR03MF4 | Confidence: 0.85 | Snapshot: snapshots\TR03MF4_20250617_124312.jpg
+2025-06-17 12:45:12,831 | INFO | Logger initialized.
+2025-06-17 12:45:30,465 | INFO | Detected: KL19EQ0001 | Confidence: 0.98 | Snapshot: snapshots\KL19EQ0001_20250617_124530.jpg
+2025-06-17 12:49:59,165 | INFO | Logger initialized.
+2025-06-17 12:50:06,492 | INFO | Detected: KL19EQ0001 | Confidence: 0.96 | Snapshot: snapshots\KL19EQ0001_20250617_125006.jpg
+2025-06-17 12:52:58,631 | INFO | Logger initialized.
+2025-06-17 12:53:08,571 | INFO | Detected: KL19EQ0001 | Confidence: 0.93 | Snapshot: snapshots\KL19EQ0001_20250617_125308.jpg
+2025-06-17 12:53:35,777 | INFO | Logger initialized.
+2025-06-17 12:53:41,516 | INFO | Detected: AL19EQ0001 | Confidence: 0.86 | Snapshot: snapshots\AL19EQ0001_20250617_125341.jpg
+2025-06-17 12:53:47,065 | INFO | Session ended by user.
+2025-06-17 12:57:45,753 | INFO | Logger initialized.
+2025-06-17 12:57:52,785 | INFO | Detected: KL19EQ0001 | Confidence: 0.88 | Snapshot: snapshots\KL19EQ0001_20250617_125752.jpg
+2025-06-17 12:58:48,958 | INFO | Detected: PB19EQ0001 | Confidence: 0.77 | Snapshot: snapshots\PB19EQ0001_20250617_125848.jpg

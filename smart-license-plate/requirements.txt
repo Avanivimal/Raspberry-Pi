@@ -1,0 +1,11 @@
+easyocr==1.7.2
+Flask==3.1.1
+imutils==0.5.4
+numpy==1.26.4
+opencv-python==4.11.0.86
+paho-mqtt==2.1.0
+pandas==2.3.0
+Pillow==11.2.1
+python-bidi==0.6.6
+requests==2.32.4
+Werkzeug==3.1.3
