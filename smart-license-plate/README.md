@@ -15,23 +15,23 @@ A full-stack IoT system powered by Python, OpenCV, OCR, Flask, MQTT, SQLite, and
 ## Project Structure
  
 smart-license-plate/
-├── main.py                   # Entry point, orchestrates components
-├── db_utils.py               # SQLite insert/query helpers
-├── log_utils.py              # Structured logging (rotating handler)
-├── mqtt_client.py            # MQTT publisher logic
-├── camera_utils.py           # OpenCV image capture, snapshot
-├── tkinter_dashboard.py      # Local GUI dashboard
-├── flask_admin/
-│   ├── app.py                # Flask app with routes
-│   └── templates/            # HTML files (logs.html, index.html)
-        ├── login.html        # login template
-│       └── logs.html         # logs template
-├── logs/
-│   ├── detection.log         # Log file
-│   └── plates.db             # SQLite DB
-├── snapshots                 # snapshots of the detcted plates
-├── requirements.txt
-└── README.md
+├── main.py                  # Entry point, orchestrates components
+├── db_utils.py              # SQLite insert/query helpers
+├── log_utils.py             # Structured logging (rotating handler)
+├── mqtt_client.py           # MQTT publisher logic
+├── camera_utils.py          # OpenCV image capture, snapshot logic
+├── tkinter_dashboard.py     # Local GUI dashboard (Tkinter)
+├── flask_admin/             # Flask web dashboard
+│   ├── app.py               # Flask app with API and routes
+│   └── templates/           # HTML templates for the Flask UI
+│       ├── login.html       # Login page
+│       └── logs.html        # Plate logs viewer
+├── logs/                    # Persistent logs and database
+│   ├── detection.log        # Logging output (rotating)
+│   └── plates.db            # SQLite database
+├── snapshots/               # Saved snapshots of detected plates
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
  
 ## Installation
  
