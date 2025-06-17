@@ -6,10 +6,10 @@ import datetime
 import os
 import re
 
-#from gpiozero import LED
-#from time import sleep
+from gpiozero import LED
+from time import sleep
  
-#led = LED(26, active_high=False)
+led = LED(26, active_high=False)
 # Initialize OCR reader
 reader = easyocr.Reader(['en'])
 regex_pattern = r'^[A-Z]{2}[0-9]{2}[A-Z]{1,}[0-9]{1,}$'
@@ -57,11 +57,12 @@ def save_snapshot(image, plate_text):
     os.makedirs(folder, exist_ok=True)
     path = os.path.join(folder, filename)
     cv2.imwrite(path, image)
-    '''try:
+    try:
         led.on()
         sleep(1.5)
         led.off()
+        led.close()
     except:
-        print("There was an exception")'''
+        print("There was an exception")
     return path
  
