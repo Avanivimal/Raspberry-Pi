@@ -79,5 +79,5 @@ python3 tkinter_dashboard.py
 ## Authors
  
 - Avani B Nair
-- Ganga AS
+- Ganga A S
 - Reuben Vinod
